@@ -47,7 +47,7 @@ function checkDiagonal(grid, start){
             return true;
         break;
         case TopRight:
-            var first = grid[0][2];
+            var first = grid[0][Grid_Size - 1];
             for(let row = 1; row < Grid_Size; row++){
                 var col = (Grid_Size - 1) - row;
                 if(grid[row][col] != first){
