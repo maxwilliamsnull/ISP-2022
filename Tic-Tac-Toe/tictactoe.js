@@ -8,6 +8,18 @@ const o = 'O';
 const x = 'X';
 let currentPlayer = o;
 
+const generateBoxes = () => {
+  /** 
+  var container = document.getElementById("board");
+  for(let i = 0; i < 9; i++){
+    var box = document.createElement("box");
+    box.id = i;
+    container.appendChild(box);
+  }**/
+
+  console.log("Document Loaded");
+}
+
 const drawGrid = () => {
   boxes.forEach((box, i) => {
     let style = '';
